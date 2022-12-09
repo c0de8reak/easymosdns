@@ -13,7 +13,7 @@ chmod +x $mosdns_working_dir/tools/adblock*
 chmod +x $mosdns_working_dir/tools/ecs*
 chmod +x $mosdns_working_dir/tools/ipv4*
 chmod +x $mosdns_working_dir/tools/socks5-reload
-chmod +x $mosdns_working_dir/restart.service
-\cp -rf $mosdns_working_dir/tools/config.bak $mosdns_working_dir/config.yaml
-$mosdns_working_dir/restart.service
+chmod +x # $mosdns_working_dir/restart.service
+\cp -rf $mosdns_working_dir/tools/config.bak $mosdns_working_dir/cus_config.yaml
+# $mosdns_working_dir/restart.service
 echo 'EasyMosDNS: Reset successful'

@@ -6,6 +6,6 @@
 #
 mosdns_working_dir="/etc/mosdns"
 source $mosdns_working_dir/include.conf
-sed -i "/^          socks5:/c\          socks5: '$socks5addr'" $mosdns_working_dir/config.yaml
-$mosdns_working_dir/restart.service
+sed -i "/^          socks5:/c\          socks5: '$socks5addr'" $mosdns_working_dir/cus_config.yaml
+# $mosdns_working_dir/restart.service
 echo 'Socks5: Reload successful'
